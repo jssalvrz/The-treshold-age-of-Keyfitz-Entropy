@@ -1,0 +1,206 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aburto and van Raalte(2018)}]{Aburto2018Eastern}
+Aburto, J.M. and van Raalte, A.A. (2018).
+\newblock Lifespan dispersion in times of life expectancy fluctuation: The case
+  of {C}entral and {E}astern {E}urope.
+\newblock \textit{Demography} 55(6): 2071--2096.
+
+\bibitem[{Aburto et~al.(2018)Aburto, Wensink, van Raalte, and
+  Lindahl-Jacobsen}]{aburto2018potential}
+Aburto, J.M., Wensink, M., van Raalte, A., and Lindahl-Jacobsen, R. (2018).
+\newblock Potential gains in life expectancy by reducing inequality of
+  lifespans in {D}enmark: An international comparison and cause-of-death
+  analysis.
+\newblock \textit{BMC Public Health} 18(1): 831.
+
+\bibitem[{Archer et~al.(2018)Archer, Basellini, Hunt, Simpson, Lee, and
+  Baudisch}]{archer2018diet}
+Archer, C.R., Basellini, U., Hunt, J., Simpson, S.J., Lee, K.P., and Baudisch,
+  A. (2018).
+\newblock Diet has independent effects on the pace and shape of aging in
+  {D}rosophila melanogaster.
+\newblock \textit{Biogerontology} 19(1): 1--12.
+
+\bibitem[{Arriaga(1984)}]{arriaga1984measuring}
+Arriaga, E.E. (1984).
+\newblock Measuring and explaining the change in life expectancies.
+\newblock \textit{Demography} 21(1): 83--96.
+
+\bibitem[{Baudisch et~al.(2013)Baudisch, Salguero-G{\'o}mez, Jones, Wrycza,
+  Mbeau-Ache, Franco, and Colchero}]{baudisch2013pace}
+Baudisch, A., Salguero-G{\'o}mez, R., Jones, O.R., Wrycza, T., Mbeau-Ache, C.,
+  Franco, M., and Colchero, F. (2013).
+\newblock The pace and shape of senescence in angiosperms.
+\newblock \textit{Journal of Ecology} 101(3): 596--606.
+
+\bibitem[{Beltr{\'a}n-S{\'a}nchez, Preston, and
+  Canudas-Romo(2008)}]{beltran2008integrated}
+Beltr{\'a}n-S{\'a}nchez, H., Preston, S.H., and Canudas-Romo, V. (2008).
+\newblock An integrated approach to cause-of-death analysis: Cause-deleted life
+  tables and decompositions of life expectancy.
+\newblock \textit{Demographic Research} 19: 1323--1350.
+
+\bibitem[{Beltr{\'a}n-S{\'a}nchez and Soneji(2011)}]{beltran2011unifying}
+Beltr{\'a}n-S{\'a}nchez, H. and Soneji, S. (2011).
+\newblock A unifying framework for assessing changes in life expectancy
+  associated with changes in mortality: The case of violent deaths.
+\newblock \textit{Theoretical Population Biology} 80(1): 38--48.
+
+\bibitem[{Colchero et~al.(2016)Colchero, Rau, Jones, Barthold, Conde, Lenart,
+  N{\'e}meth, Scheuerlein, Schoeley, Torres, ..., Alberts, and
+  Vaupel}]{colchero2016emergence}
+Colchero, F., Rau, R., Jones, O.R., Barthold, J.A., Conde, D.A., Lenart, A.,
+  N{\'e}meth, L., Scheuerlein, A., Schoeley, J., Torres, C., ..., Alberts,
+  S.C., and Vaupel, J.W. (2016).
+\newblock The emergence of longevous populations.
+\newblock \textit{Proceedings of the National Academy of Sciences} 113(48):
+  E7681--E7690.
+
+\bibitem[{Demetrius(1978)}]{demetrius1978adaptive}
+Demetrius, L. (1978).
+\newblock Adaptive value, entropy and survivorship curves.
+\newblock \textit{Nature} 275: 213--214.
+
+\bibitem[{Demetrius(1979)}]{Demetrius1979}
+Demetrius, L. (1979).
+\newblock Relations between demographic parameters.
+\newblock \textit{Demography} 16(2): 329--338.
+
+\bibitem[{Edwards and Tuljapurkar(2005)}]{edwards2005inequality}
+Edwards, R.D. and Tuljapurkar, S. (2005).
+\newblock Inequality in life spans and a new perspective on mortality
+  convergence across industrialized countries.
+\newblock \textit{Population and Development Review} 31(4): 645--674.
+
+\bibitem[{Fern\'andez and Beltr\'an-S\'anchez(2015)}]{Fernandez2015}
+Fern\'andez, O.E. and Beltr\'an-S\'anchez, H. (2015).
+\newblock The entropy of the life table: A reappraisal.
+\newblock \textit{Theoretical Population Biology} 104: 26--45.
+
+\bibitem[{Gigliarano, Basellini, and Bonetti(2017)}]{gigliarano2017longevity}
+Gigliarano, C., Basellini, U., and Bonetti, M. (2017).
+\newblock Longevity and concentration in survival times: The log-scale-location
+  family of failure time models.
+\newblock \textit{Lifetime Data Analysis} 23(2): 254--274.
+
+\bibitem[{Gillespie, Trotter, and Tuljapurkar(2014)}]{Gillespie2014}
+Gillespie, D.O., Trotter, M.V., and Tuljapurkar, S.D. (2014).
+\newblock Divergence in age patterns of mortality change drives international
+  divergence in lifespan inequality.
+\newblock \textit{Demography} 51(3): 1003--1017.
+
+\bibitem[{Goldman and Lord(1986)}]{Goldman1986}
+Goldman, N. and Lord, G. (1986).
+\newblock A new look at entropy and the life table.
+\newblock \textit{Demography} 23(2): 275--282.
+
+\bibitem[{Hakkert(1987)}]{Hakkert1987}
+Hakkert, R. (1987).
+\newblock Life table transformations and inequality measures: Some noteworthy
+  formal relationships.
+\newblock \textit{Demography} 24(4): 615--622.
+
+\bibitem[{Hill(1993)}]{hill1993entropy}
+Hill, G. (1993).
+\newblock The entropy of the survival curve: An alternative measure.
+\newblock \textit{Canadian Studies in Population} 20(1): 43--57.
+
+\bibitem[{{Human Mortality Database}(2018)}]{HMD}
+{Human Mortality Database} (2018).
+\newblock University of California, Berkeley, and Max Planck Institute for
+  Demographic Research, Rostock. URL \url{http://www.mortality.org}.
+
+\bibitem[{Keyfitz(1977)}]{Keyfitz1977}
+Keyfitz, N. (1977).
+\newblock What difference would it make if cancer were eradicated? {A}n
+  examination of the {T}aeuber paradox.
+\newblock \textit{Demography} 14(4): 411--418.
+
+\bibitem[{Mitra(1978)}]{mitra1978short}
+Mitra, S. (1978).
+\newblock A short note on the {T}aeuber paradox.
+\newblock \textit{Demography} 15(4): 621--623.
+
+\bibitem[{Pollard(1988)}]{pollard1988decomposition}
+Pollard, J.H. (1988).
+\newblock On the decomposition of changes in expectation of life and
+  differentials in life expectancy.
+\newblock \textit{Demography} 25(2): 265--276.
+
+\bibitem[{Shkolnikov et~al.(2011)Shkolnikov, Andreev, Zhang, Oeppen, and
+  Vaupel}]{Shkolnikov2011}
+Shkolnikov, V.M., Andreev, E.M., Zhang, Z., Oeppen, J., and Vaupel, J.W.
+  (2011).
+\newblock Losses of expected lifetime in the {U}nited {S}tates and other
+  developed countries: Methods and empirical analyses.
+\newblock \textit{Demography} 48(1): 211--239.
+
+\bibitem[{Shkolnikov, Andreev, and Begun(2003)}]{Shkolnikov2003}
+Shkolnikov, V.M., Andreev, E.E., and Begun, A.Z. (2003).
+\newblock Gini coefficient as a life table function: Computation from discrete
+  data, decomposition of differences and empirical examples.
+\newblock \textit{Demographic Research} 8(11): 305--358.
+
+\bibitem[{Smits and Monden(2009)}]{Smits2009}
+Smits, J. and Monden, C. (2009).
+\newblock Length of life inequality around the globe.
+\newblock \textit{Social Science \& Medicine} 68(6): 1114--1123.
+
+\bibitem[{Tuljapurkar and Edwards(2011)}]{tuljapurkar2011variance}
+Tuljapurkar, S. and Edwards, R.D. (2011).
+\newblock Variance in death and its implications for modeling and forecasting
+  mortality.
+\newblock \textit{Demographic Research} 24(21): 497--526.
+
+\bibitem[{van Raalte and Caswell(2013)}]{vanRaalte2013}
+van Raalte, A.A. and Caswell, H. (2013).
+\newblock Perturbation analysis of indices of lifespan variability.
+\newblock \textit{Demography} 50(5): 1615--1640.
+
+\bibitem[{van Raalte, Sasson, and Martikainen(2018)}]{vanraalte2018Science}
+van Raalte, A.A., Sasson, I., and Martikainen, P. (2018).
+\newblock The case for monitoring life-span inequality.
+\newblock \textit{Science} .
+
+\bibitem[{Vaupel(1986)}]{Vaupel1986}
+Vaupel, J.W. (1986).
+\newblock How change in age-specific mortality affects life expectancy.
+\newblock \textit{Population Studies} 40(1): 147--157.
+
+\bibitem[{Vaupel and Canudas-Romo(2003)}]{Vaupel2003}
+Vaupel, J.W. and Canudas-Romo, V. (2003).
+\newblock Decomposing change in life expectancy: A bouquet of formulas in honor
+  of {N}athan {K}eyfitz's 90th birthday.
+\newblock \textit{Demography} 40(2): 201--216.
+
+\bibitem[{Vaupel, Zhang, and van Raalte(2011)}]{Vaupel2011}
+Vaupel, J.W., Zhang, Z., and van Raalte, A.A. (2011).
+\newblock Life expectancy and disparity: An international comparison of life
+  table data.
+\newblock \textit{BMJ Open} bmjopen--2011--000128.
+
+\bibitem[{Wagner(2010)}]{Wagner2010}
+Wagner, P. (2010).
+\newblock Sensitivity of life disparity with respect to changes in mortality
+  rates.
+\newblock \textit{Demographic Research} 23(3): 63--72.
+
+\bibitem[{Wrycza, Missov, and Baudisch(2015)}]{Wrycza2015}
+Wrycza, T.F., Missov, T.I., and Baudisch, A. (2015).
+\newblock Quantifying the shape of aging.
+\newblock \textit{PLoS ONE} 10(3): e0119163.
+
+\bibitem[{Zhang and Vaupel(2009)}]{Zhang2009}
+Zhang, Z. and Vaupel, J.W. (2009).
+\newblock The age separating early deaths from late deaths.
+\newblock \textit{Demographic Research} 20(29): 721--730.
+
+\end{thebibliography}
