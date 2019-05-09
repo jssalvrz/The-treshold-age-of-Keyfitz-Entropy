@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -6,6 +6,12 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aburto and Beltr{\'a}n-S{\'a}nchez(2019)}]{aburto2019upsurge}
+Aburto, J.M. and Beltr{\'a}n-S{\'a}nchez, H. (2019).
+\newblock Upsurge of homicides and its impact on life expectancy and life span
+  inequality in mexico, 2005--2015.
+\newblock \textit{American journal of public health} 109(3): 483--489.
 
 \bibitem[{Aburto and van Raalte(2018)}]{Aburto2018Eastern}
 Aburto, J.M. and van Raalte, A.A. (2018).
@@ -64,6 +70,12 @@ Colchero, F., Rau, R., Jones, O.R., Barthold, J.A., Conde, D.A., Lenart, A.,
 \newblock \textit{Proceedings of the National Academy of Sciences} 113(48):
   E7681--E7690.
 
+\bibitem[{Demetrius(1974)}]{demetrius1974demographic}
+Demetrius, L. (1974).
+\newblock Demographic parameters and natural selection.
+\newblock \textit{Proceedings of the National Academy of Sciences} 71(12):
+  4645--4647.
+
 \bibitem[{Demetrius(1978)}]{demetrius1978adaptive}
 Demetrius, L. (1978).
 \newblock Adaptive value, entropy and survivorship curves.
@@ -117,6 +129,11 @@ Hill, G. (1993).
 {Human Mortality Database} (2018).
 \newblock University of California, Berkeley, and Max Planck Institute for
   Demographic Research, Rostock. URL \url{http://www.mortality.org}.
+
+\bibitem[{Keyfitz(1968)}]{keyfitz1968introduction}
+Keyfitz, N. (1968).
+\newblock \textit{Introduction to the mathematics of populations}.
+\newblock Addison-Wesley Series in Behavioral Science: Quantitative Methods.
 
 \bibitem[{Keyfitz(1977)}]{Keyfitz1977}
 Keyfitz, N. (1977).

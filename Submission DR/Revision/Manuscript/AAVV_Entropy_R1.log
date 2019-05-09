@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  23 JAN 2019 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2019.4.29)  9 MAY 2019 10:09
 entering extended mode
-**./AAVV_KeyfitzThreshold.tex
-(AAVV_KeyfitzThreshold.tex
+**./AAVV_Entropy_R1.tex
+(AAVV_Entropy_R1.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -135,15 +135,16 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.s
+ty
+Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip49
 \enit@outerparindent=\dimen120
 \enit@toks=\toks27
 \enit@inbox=\box28
-\enitdp@description=\count102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+\enit@count@id=\count102
+\enitdp@description=\count103
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
@@ -166,32 +167,33 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count103
+\Gread@gobject=\count104
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip50
 \bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
+\c@NAT@ctr=\count105
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.s
+ty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks28
 \AP@partial=\box29
 \AP@footins=\box30
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\footmisc\footmisc.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\footmisc\footmisc.s
+ty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks29
 \footnotemargin=\dimen123
-\c@pp@next@reset=\count105
+\c@pp@next@reset=\count106
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -201,20 +203,21 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count106
-)
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.s
+ty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count107
+) (C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.st
+y
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen124
 \captionmargin@=\dimen125
 \captionwidth=\dimen126
@@ -223,14 +226,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen129
 \caption@hangindent=\dimen130
 )
-\c@ContinuedFloat=\count107
+\c@caption@flags=\count108
+\c@ContinuedFloat=\count109
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\changepage\changepage.s
-ty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\changepage\changepa
+ge.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count108
-\cp@tempcnt=\count109
-) (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\quoting\quoting.sty
+\c@cp@cntr=\count110
+\cp@tempcnt=\count111
+)
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\quoting\quoting.sty
 Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -255,14 +260,16 @@ Package etexcmds Info: Could not find \expanded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip53
-\multirow@cntb=\count110
+\multirow@cntb=\count112
 \multirow@dima=\skip54
 \bigstrutjot=\dimen131
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.s
+ty
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.s
+ty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen132
 \lightrulewidth=\dimen133
@@ -274,15 +281,14 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen139
 \cmidrulekern=\dimen140
 \defaultaddspace=\dimen141
-\@cmidla=\count111
-\@cmidlb=\count112
+\@cmidla=\count113
+\@cmidlb=\count114
 \@aboverulesep=\dimen142
 \@belowrulesep=\dimen143
-\@thisruleclass=\count113
-\@lastruleclass=\count114
+\@thisruleclass=\count115
+\@lastruleclass=\count116
 \@thisrulewidth=\dimen144
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
@@ -327,13 +333,13 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen145
-\Hy@linkcounter=\count115
-\Hy@pagecounter=\count116
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count117
+\Hy@SavedSpaceFactor=\count119
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -347,10 +353,10 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count118
+\c@Hy@tempcnt=\count120
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen146
-\Fld@menulength=\count119
+\Fld@menulength=\count121
 \Field@Width=\dimen147
 \Fld@charsize=\dimen148
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -362,16 +368,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count120
-\c@Item=\count121
+\Hy@abspage=\count122
+\c@Item=\count123
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count122
-\c@bookmark@seq@number=\count123
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -380,9 +386,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
-
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.s
+ty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip56
 \f@nch@O@elh=\skip57
 \f@nch@O@erh=\skip58
@@ -392,8 +399,7 @@ Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
 \f@nch@O@erf=\skip62
 \f@nch@O@olf=\skip63
 \f@nch@O@orf=\skip64
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen149
 \extrarowheight=\dimen150
@@ -401,14 +407,14 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip65
 \backup@length=\skip66
 )
-\c@theorem=\count124
+\c@theorem=\count126
 
 
 LaTeX Warning: Unused global option(s):
     [openright].
 
-(AAVV_KeyfitzThreshold.aux)
-\openout1 = `AAVV_KeyfitzThreshold.aux'.
+(AAVV_Entropy_R1.aux)
+\openout1 = `AAVV_Entropy_R1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
@@ -459,18 +465,20 @@ LaTeX Font Info:    ... okay on input line 139.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:\Users\jmaburto.SAM\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pd
+f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count127
 \scratchdimen=\dimen151
 \scratchbox=\box31
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count128
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen152
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks32
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -506,15 +514,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count133
 )
 LaTeX Info: Redefining \ref on input line 139.
 LaTeX Info: Redefining \pageref on input line 139.
 LaTeX Info: Redefining \nameref on input line 139.
 
-(AAVV_KeyfitzThreshold.out) (AAVV_KeyfitzThreshold.out)
+(AAVV_Entropy_R1.out) (AAVV_Entropy_R1.out)
 \@outlinefile=\write3
-\openout3 = `AAVV_KeyfitzThreshold.out'.
+\openout3 = `AAVV_Entropy_R1.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 156.
 
@@ -527,7 +535,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 156.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/jmaburto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/Users/jmaburto.SAM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 
@@ -616,23 +624,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-[7] <Ages2005.pdf, id=162, 623.08412pt x 228.78354pt>
-File: Ages2005.pdf Graphic file (type pdf)
- <use Ages2005.pdf>
-Package pdftex.def Info: Ages2005.pdf used on input line 404.
+[7] <Figures/Ages2005.pdf, id=166, 623.08412pt x 228.78354pt>
+File: Figures/Ages2005.pdf Graphic file (type pdf)
+
+<use Figures/Ages2005.pdf>
+Package pdftex.def Info: Figures/Ages2005.pdf used on input line 404.
 (pdftex.def)             Requested size: 448.62022pt x 164.72401pt.
 
-<Threshold_ages.pdf, id=167, 623.91524pt x 226.57803pt>
-File: Threshold_ages.pdf Graphic file (type pdf)
+<Figures/Threshold_ages.pdf, id=171, 623.91524pt x 226.57803pt>
+File: Figures/Threshold_ages.pdf Graphic file (type pdf)
 
-<use Threshold_ages.pdf>
-Package pdftex.def Info: Threshold_ages.pdf used on input line 415.
+<use Figures/Threshold_ages.pdf>
+Package pdftex.def Info: Figures/Threshold_ages.pdf used on input line 415.
 (pdftex.def)             Requested size: 449.21863pt x 163.13605pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./Ages2005.pdf>]
+[8 <./Figures/Ages2005.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 422.
@@ -675,27 +684,27 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./Threshold_ages.pdf>] [10] (AAVV_KeyfitzThreshold.bbl [11] [12]) [13] [14
-]
+ [9 <./Figures/Threshold_ages.pdf>] [10] (AAVV_Entropy_R1.bbl [11] [12]) [13] [
+14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 587.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
 
-(AAVV_KeyfitzThreshold.aux)
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 587.
+ (AAVV_Entropy_R1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 587.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 587.
-Package rerunfilecheck Info: File `AAVV_KeyfitzThreshold.out' has not changed.
+Package rerunfilecheck Info: File `AAVV_Entropy_R1.out' has not changed.
 (rerunfilecheck)             Checksum: F9707F146C3AF9D6529325F4DD342695;590.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 587.
  ) 
 Here is how much of TeX's memory you used:
- 9228 strings out of 493328
- 137555 string characters out of 3139116
- 243730 words of memory out of 3000000
- 12532 multiletter control sequences out of 15000+200000
+ 9329 strings out of 493328
+ 139432 string characters out of 3139103
+ 246125 words of memory out of 3000000
+ 12629 multiletter control sequences out of 15000+200000
  14565 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,25n,43p,2584b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,25n,43p,2578b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -712,9 +721,9 @@ s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
 ymbols/msam10.pfb>
-Output written on AAVV_KeyfitzThreshold.pdf (15 pages, 331132 bytes).
+Output written on AAVV_Entropy_R1.pdf (15 pages, 366677 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

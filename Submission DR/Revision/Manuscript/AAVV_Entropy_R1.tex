@@ -147,13 +147,13 @@
 \begin{center}
     
     \vspace*{1cm}
-    \LARGE{The threshold age of Keyfitz' entropy}	
+    \LARGE{The threshold age of the lifetable entropy}	
     \vspace{.4cm}    
         
     % \hypersetup{footnotecolor=black}
            
     \vspace{1cm}
-    \large Jos\'e Manuel Aburto\footnote[*]{Correspondence:~\href{mailto:jmaburto@sdu.dk}{jmaburto@sdu.dk}.}\footnote{Interdisciplinary Center on Population Dynamics, University of Southern Denmark, Odense, Denmark.}\fnsep\footnote{Max Planck Institute for Demographic Research, Rostock, Germany.}, Jesus-Adrian Alvarez\textsuperscript{a}, Francisco Villavicencio\footnote{Institute for International Programs, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, United States.}\fnsep\textsuperscript{a}\\ and James W. Vaupel\textsuperscript{a}\fnsep\textsuperscript{b}
+    \large Jos\'e Manuel Aburto\footnote[*]{Correspondence:~\href{mailto:jmaburto@sdu.dk}{jmaburto@sdu.dk}.}\footnote{Interdisciplinary Center on Population Dynamics, University of Southern Denmark, Odense, Denmark.}\fnsep\footnote{Max Planck Institute for Demographic Research, Rostock, Germany.}, Jes\'us-Adri\'an Alvarez\textsuperscript{a}, Francisco Villavicencio\footnote{Institute for International Programs, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, United States.}\fnsep\textsuperscript{a}\\ and James W. Vaupel\textsuperscript{a}\fnsep\textsuperscript{b}
     
     \vspace{1cm}
     \large\today
@@ -188,7 +188,7 @@ We give a formal expression for changes over time of $\xbar{H}$ and provide a fo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 \section{Relationship}
-Keyfitz' entropy is a dimensionless indicator of the relative variation in the length of life compared to life expectancy \citep{Keyfitz1977, demetrius1978adaptive}. It is usually defined as
+The lifetable entropy is a dimensionless indicator of the relative variation in the length of life compared to life expectancy \citep{keyfitz1968introduction,demetrius1974demographic,Keyfitz1977, demetrius1978adaptive}. It is usually defined as
 %
 \begin{equation*}
 \xbar{H}(t)=-\frac{\int_0^\infty\ell(a, t)\,\ln\ell(a, t)\,da}{\int_0^\infty\ell(a, t)\,da}=\int_0^\infty c(a, t)\,H(a,t)\,da=\frac{e^\dagger(t)}{e_o(t)}\;,
@@ -401,7 +401,7 @@ Figure~\ref{fig:Fig1} depicts the threshold ages for the two related measures: $
 
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=.72]{Ages2005}
+  \includegraphics[scale=.72]{Figures/Ages2005}
   \caption{Derivation of threshold ages for $e^\dagger$ ($a^\dagger$) and Keyfitz' entropy ($a^H$) from life table functions for United States and Italy in 2005. Source: \cite{HMD}}
   \label{fig:Fig1}
 \end{figure}
@@ -412,7 +412,7 @@ Values for $a^\dagger$ are close to life expectancy throughout the period. Howev
 
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=.72]{Threshold_ages}
+  \includegraphics[scale=.72]{Figures/Threshold_ages}
   \caption{Threshold age for $e^\dagger$ and Keyftiz' entropy $\xbar{H}$ for females in France and Sweden over time. Source: \cite{HMD}}
   \label{fig:Fig2}
 \end{figure}
@@ -439,7 +439,7 @@ If mortality reductions occur at every age, the \textit{early life component} in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusion}
- Several authors have been interested in decomposing changes over time in life expectancy \citep{arriaga1984measuring, Vaupel1986, pollard1988decomposition, Vaupel2003, beltran2008integrated, beltran2011unifying}. Recently, authors have also investigated how life disparity fluctuations over time can be decomposed \citep{Wagner2010, Zhang2009, Shkolnikov2011, Aburto2018Eastern}. In this paper, we bring both perspectives together and shed light on the dynamics behind changes in Keyfitz' entropy.
+ Several authors have been interested in decomposing changes over time in life expectancy \citep{arriaga1984measuring, Vaupel1986, pollard1988decomposition, Vaupel2003, beltran2008integrated, beltran2011unifying}. Recently, authors have also investigated how life disparity fluctuations over time can be decomposed \citep{Wagner2010, Zhang2009, Shkolnikov2011, Aburto2018Eastern, aburto2019upsurge}. In this paper, we bring both perspectives together and shed light on the dynamics behind changes in Keyfitz' entropy.
    
  \cite{Keyfitz1977} first proposed $\xbar{H}$ as a life table function that measures \textit{the change in life expectancy at birth consequent on a proportional change in age-specific rates}. Since then, several authors have been interested in this measure and its use \citep{demetrius1978adaptive, Demetrius1979,mitra1978short,Goldman1986,Vaupel1986,Hakkert1987,hill1993entropy,Fernandez2015}. Keyfitz' entropy has become an appropriate indicator of lifespan variation that permits comparison of the shape of ageing across different species and over time \citep{baudisch2013pace,Wrycza2015}. In this article, we uncover the mathematical regularities behind the changes over time in Keyfitz' entropy. In particular, this study contributes to the existing literature by showing that (1) Keyfitz' entropy can be decomposed as a weighted average of rates of mortality improvements and (2) that there exists a threshold age that separates positive and negative contributions of reductions in mortality over time. 
 
