@@ -20,10 +20,11 @@ age.H<- function(Age, ax, dx, lx, ex){
   Age <- as.integer(as.character(Age))
   #e-dagger at age x
   ex.bar    <- ex +ax*(ex - c(ex[-1], ex[length(ex)]))
+  ex.bar[length(ex.bar)] <- ex
   ex.bar.dx <- ex.bar * dx
   e.dag.x   <-  rev(cumsum(rev(ex.bar.dx)))/ lx
   
-  #Keyfitz's entropy
+  #Keyfitz's entropy at age x
    Hx <- e.dag.x / ex
   
   #Cumulative hazard
@@ -60,7 +61,7 @@ get.a <- function(Age,gx,ex, e.dag.x, a.dag){
 
 
 
-Dat <- data.table(read_table2("C:/Users/jmartinez/OneDrive - Syddansk Universitet/Threshold of H/Data/DNK.fltper_1x1.txt", skip = 3))
+Dat <- data.table(read_table2("DNK.fltper_1x1.txt", skip = 3))
 
 pr <- Dat[ ,age.H(Age = Age, ax = ax, dx = dx, lx = lx, ex = ex), by = list(Year)]
 
