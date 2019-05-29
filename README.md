@@ -1,1 +1,1 @@
-# The treshold age of Keyfitz Entropy
+# The treshold age of the lifetable entropy
