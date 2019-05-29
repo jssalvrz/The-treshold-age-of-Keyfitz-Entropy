@@ -26,7 +26,7 @@
 \usepackage{multirow}				% Multiple rows in tables
 \usepackage{placeins}				% Use \FloatBarrier to put figures and tables in current section
 \usepackage{booktabs}
-% \usepackage[hyperfootnotes=false, colorlinks = true, allcolors = blue]{hyperref}		% Include hyperlinks
+ \usepackage[hyperfootnotes=false, colorlinks = true, allcolors = blue]{hyperref}		% Include hyperlinks
 \usepackage{fancyhdr}				% Fancy headers
 
 
@@ -53,13 +53,13 @@
 \makeatother
 
 % Customize headers
-%\pagestyle{fancy}
-%\fancyhf{}
-%\fancyhead[RO,LE]{\small\thepage}
-%\fancyhead[LO]{\small \nouppercase{The threshold age of the lifetable entropy}}
-%\fancyhead[RE]{\small \nouppercase{Aburto et al.}}
-%\fancyfoot[L,R,C]{}
-%\renewcommand{\headrulewidth}{0.4pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\small\thepage}
+\fancyhead[LO]{\small \nouppercase{The threshold age of the lifetable entropy}}
+\fancyhead[RE]{\small \nouppercase{Aburto et al.}}
+\fancyfoot[L,R,C]{}
+\renewcommand{\headrulewidth}{0.4pt}
 
 
 % TABLES: Alignment columns	
@@ -113,15 +113,15 @@
 \newcommand\fnsep{\textsuperscript{,}}
 
 % % One footnote with asterisk
-% % \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-% \newcommand{\astfootnote}[1]{
-% % \let\oldthefootnote=\thefootnote
-% \setcounter{footnote}{0}
-% \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-% \footnote{#1}
-% % \let\thefootnote=\oldthefootnote
-% \setcounter{footnote}{0}
-% }
+ % \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+ \newcommand{\astfootnote}[1]{
+ % \let\oldthefootnote=\thefootnote
+ \setcounter{footnote}{0}
+ \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+ \footnote{#1}
+ % \let\thefootnote=\oldthefootnote
+ \setcounter{footnote}{0}
+ }
 
 % Allow customizing symbol in selected footnotes
 \makeatletter
@@ -153,7 +153,7 @@
     % \hypersetup{footnotecolor=black}
            
     \vspace{1cm}
-%    \large Jos\'e Manuel Aburto\footnote[*]{Correspondence: \href{mailto:jmaburto@sdu.dk}{jmaburto@sdu.dk}.}\footnote{Interdisciplinary Center on Population Dynamics, University of Southern Denmark, Odense, Denmark.}\fnsep\footnote{Max Planck Institute for Demographic Research, Rostock, Germany.}, Jes\'us-Adri\'an Alvarez\textsuperscript{a}, Francisco Villavicencio\footnote{Department of International Health, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, United States.}\\ and James W. Vaupel\textsuperscript{a}\fnsep\textsuperscript{b}
+    \large Jos\'e Manuel Aburto\footnote[*]{Correspondence:~\href{mailto:jmaburto@sdu.dk}{jmaburto@sdu.dk}.}\footnote{Interdisciplinary Center on Population Dynamics, University of Southern Denmark, Odense, Denmark.}\fnsep\footnote{Max Planck Institute for Demographic Research, Rostock, Germany.}, Jesus-Adrian Alvarez\textsuperscript{a}, Francisco Villavicencio\footnote{Institute for International Programs, Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, United States.}\fnsep\textsuperscript{a}\\ and James W. Vaupel\textsuperscript{a}\fnsep\textsuperscript{b}
     
     \vspace{1cm}
     \large\today
@@ -165,11 +165,12 @@
 \renewcommand{\thefootnote}{\arabic{footnote}}
 \setcounter{footnote}{0}
 
+
 \section*{Abstract}
 \bigskip
 
 \textbf{BACKGROUND} \\
-Indicators of relative inequality of lifespans are important because they capture the dimensionless shape of aging. They are markers of inequality at the population level and express the uncertainty at the time of death at the individual level. In particular, the lifetable entropy $\,\xbar{H}$ represents the elasticity of life expectancy to a change in mortality and it has been used as an indicator of lifespan variation. However, it is unknown how this measure changes over time and whether a threshold age exists, as it does for other lifespan variation indicators.
+Indicators of relative variation of lifespans are important because they capture the dimensionless shape of aging. They are markers of inequality at the population level and express the uncertainty at the time of death at the individual level. In particular, the lifetable entropy $\,\xbar{H}$ represents the elasticity of life expectancy to a change in mortality and it has been used as an indicator of lifespan variation. However, it is unknown how this measure changes over time and whether a threshold age exists, as it does for other lifespan variation indicators.
 \bigskip
 
 \noindent\textbf{RESULTS} \\
@@ -177,7 +178,7 @@ The time derivative of $\,\xbar{H}$ can be decomposed into changes in life dispa
 \bigskip
 
 \noindent\textbf{CONTRIBUTION} \\
-We give a formal expression for changes over time of $\,\xbar{H}$, and provide a formal proof of the existence of a unique threshold age that separates reductions and increases in lifespan inequality as a result age-specific mortality improvements.
+We give a formal expression for changes over time of $\,\xbar{H}$, and provide a formal proof of the existence of a unique threshold age that separates reductions and increases in lifespan variation as a result age-specific mortality improvements.
 
 % Line interpsace
 \linespread{2}\normalsize
@@ -230,7 +231,7 @@ $$
 %
 where $e^\dagger(x)=\int_x^\infty d(a)\,e(a)\,da\,/\,\ell(x)$ refers to life disparity above age $x$, and $e(x)$ is the remaining life expectancy at age $x$.
 
-Note that the lifetable entropy $\,\xbar{H}$ is a measure of relative lifespan inequality. Thus, higher values represent more lifespan disparity, whereas lower values denote less variation of lifespans. If mortality improvements over time occur at all ages, there exists a unique threshold age $a^H$ that separates \emph{positive} from \emph{negative} contributions to the lifetable entropy $\,\xbar{H}$ resulting from those mortality improvements. This threshold age $a^H$ is reached when
+Note that the lifetable entropy $\,\xbar{H}$ is a measure of relative lifespan variation. Thus, higher values represent more variation, whereas lower values denote less variation of lifespans. If mortality improvements at all ages occur over time, there exists a unique threshold age $a^H$ that separates \emph{positive} from \emph{negative} contributions to the lifetable entropy $\,\xbar{H}$ resulting from those mortality improvements. This threshold age $a^H$ is reached when
 %
 \begin{equation}
   H\left(a^H\right)+\,\xbar{H}\left(a^H\right) =1 +\,\xbar{H}\;.
@@ -396,23 +397,23 @@ In this article, we contribute to the lifespan variation literature by deriving 
 
 \subsection{Numerical findings}
 
-Figure~\ref{fig:Fig1} depicts the threshold ages for the two related measures, $e^\dagger$ and $\,\xbar{H}$. Calculations were performed using data from the \citet{HMD} for females in the United States and Italy in 2005. The blue line represents $g(x)$ from Equation~\eqref{g_x}. The threshold age $a^H$ occurs when  $g(x)$ crosses zero. The red and grey line display the same functions that \cite{Zhang2009} used to find the threshold age for $e^\dagger$. The intersection of these two lines denotes the threshold age $a^\dagger$. Finally, the dashed black line depicts the life expectancy at birth. \citet{Vaupel2011} noted that $a^\dagger$ tends to fall just below life expectancy. The threshold age for the lifetable entropy $a^H$ is greater than $a^\dagger$ and is very close above life expectancy for these countries. Note the similarity between the formulas for $a^\dagger$, given by $H(a^\dagger)+\,\xbar{H}(a^\dagger)=1$, and $a^H$, given by $H(a^H)+\,\xbar{H}(a^H)= 1+\,\xbar{H}$.
+Figure~\ref{fig:Fig1} depicts the threshold ages for the two related measures, $e^\dagger$ and $\,\xbar{H}$. Calculations were performed using data from the \citet{HMD} for females in the United States and Italy in 2005. The blue line represents $g(x)$ from Equation~\eqref{g_x}. The threshold age $a^H$ occurs when  $g(x)$ crosses zero. The red and grey line display the same functions that \cite{Zhang2009} used to find the threshold age for $e^\dagger$ rescaled to fit in the graph. The intersection of these two lines denotes the threshold age $a^\dagger$. Finally, the dashed black line depicts the life expectancy at birth. \citet{Vaupel2011} noted that $a^\dagger$ tends to fall just below life expectancy. The threshold age for the lifetable entropy $a^H$ is greater than $a^\dagger$ and is very close above life expectancy for these countries. Note the similarity between the formulas for $a^\dagger$, given by $H(a^\dagger)+\,\xbar{H}(a^\dagger)=1$, and $a^H$, given by $H(a^H)+\,\xbar{H}(a^H)= 1+\,\xbar{H}$.
 
 \begin{figure}[h]
   \centering
   \includegraphics[scale=.72]{Figures/Ages2005}
-  \caption{Threshold ages for life disparity $(a^\dagger)$ and for the lifetable entropy $(a^H)$. United States and Italy in 2005. Values in Panel~A: $e_o=80.13$, $a^\dagger=78.51$, and $a^H=80.86$. Values in Panel~B: $e_o=83.67$, $a^\dagger=81.76$, and $a^H=83.28$. Source: \cite{HMD}}
+  \caption{Threshold ages for life disparity $(a^\dagger)$ and for the lifetable entropy $(a^H)$. United States and Italy in 2005. Values in Panel~A: $e_o=80.13$, $a^\dagger=78.51$, and $a^H=80.86$. Values in Panel~B: $e_o=83.67$, $a^\dagger=81.76$, and $a^H=83.28$. Note: functions to determine the threshold age for $e^\dagger$ where rescaled by a factor of 1/10 for comparability. Source: \cite{HMD}.}
   \label{fig:Fig1}
 \end{figure}
 
 Panels~A and~B in Figure~\ref{fig:Fig2} illustrate the evolution over time of the threshold ages for $e^\dagger$ and $\,\xbar{H}$ in French and Swedish females, respectively. We chose these countries because they portray large series of reliable data available at the \cite{HMD}. 
 
-Values for $a^\dagger$ are close to life expectancy throughout the period. However, around 1950 there is a crossover between $a^\dagger$ and $e_o$ such that $a^\dagger$ remained close to life expectancy but below it. This result shows that the threshold age $a^\dagger$ being below life expectancy is a modern feature of ageing populations with high life expectancy. From the beginning of the period of observation to the 1950s, the threshold age for the lifetable entropy was above life expectancy for both countries. During some periods $a^\dagger$ was roughly constant whereas life expectancy trended upwards. After the 1950s, $a^\dagger$ converged towards life expectancy. The code and data to reproduce these results are publicly available through this repository [link not given to avoid identification of authors].
+Values for $a^\dagger$ are close to life expectancy throughout the period. However, around 1950 there is a crossover between $a^\dagger$ and $e_o$ such that $a^\dagger$ remained close to life expectancy but below it. This result shows that the threshold age $a^\dagger$ being below life expectancy is a modern feature of ageing populations with high life expectancy. From the beginning of the period of observation to the 1950s, the threshold age for the lifetable entropy was above life expectancy for both countries. During some periods $a^\dagger$ was roughly constant whereas life expectancy trended upwards. After the 1950s, $a^H$ converged towards life expectancy. We further analyzed this observation assuming the hazard follows a Gompertz model (see Appendix). Our analysis showed that the threshold age $a^H$ of the lifetable entropy $\,\xbar{H}$ for the Gompertz model is proportional to $e_o$ by a factor $\delta$ that depends on the Gompertz parameters. Moreover, this parameter $\delta$ indicates that the empirical correspondence between the threshold age and life expectancy at birth  comes from the fact that mortality in modern mortality schedules are roughly following a Gompertz model. Therefore, it can be speculated that the difference between the threshold age and life expectancy in earlier years come from the fact that a big proportion of mortality was occurring in ages where the force of mortality does not follow a Gompertz such as in infancy. This is consistent with historical patterns which suggest that, since hunter-gathers to modern populations, death rates have decreased at all ages but mostly at young ages \citep{burger2012human}. The code and data to reproduce these results are publicly available through the repository in the link \url{https://bit.ly/2wqzOFp}.
 
 \begin{figure}[h]
   \centering
   \includegraphics[scale=.72]{Figures/Threshold_ages}
-  \caption{Threshold ages for life disparity $(a^\dagger)$ and for the lifetable entropy $(a^H)$ compared to life expectancy at birth. French and Swedish females, 1800--2016. Source: \cite{HMD}}
+  \caption{Threshold ages for life disparity $(a^\dagger)$ and for the lifetable entropy $(a^H)$ compared to life expectancy at birth. French and Swedish females, 1800--2016. Source: \cite{HMD}.}
   \label{fig:Fig2}
 \end{figure}
 
@@ -440,7 +441,10 @@ If mortality reductions occur at every age, the \textit{early life component} in
 \section{Conclusion}
  Several authors have been interested in decomposing changes over time in life expectancy \citep{arriaga1984measuring, Vaupel1986, pollard1988decomposition, Vaupel2003, beltran2008integrated, beltran2011unifying}. Recently, authors have also investigated how life disparity fluctuations over time can be decomposed \citep{Wagner2010, Zhang2009, Shkolnikov2011, Aburto2018Eastern, aburto2019upsurge}. In this paper, we bring both perspectives together and shed light on the dynamics behind changes in the lifetable entropy.
    
- \cite{Keyfitz1977} first proposed $\,\xbar{H}$ as a lifetable function ``that measures the change in life expectancy at birth consequent on a proportional change in age-specific rates'' (p.~413). Since then, several authors have been interested in this measure and its use \citep{demetrius1978adaptive, Demetrius1979,mitra1978short,Goldman1986,Vaupel1986,Hakkert1987,hill1993entropy,Fernandez2015}. The lifetable entropy has become an appropriate indicator of lifespan variation that permits comparison of the shape of ageing across different species and over time \citep{baudisch2013pace,Wrycza2015}. In this article, we uncovered the mathematical regularities behind the changes over time in the lifetable entropy. In particular, this study contributes to the existing literature by showing that (1)~the lifetable entropy can be decomposed as a weighted average of rates of mortality improvements, and (2)~there exists a unique threshold age that separates positive and negative contributions of reductions in mortality over time.
+ \cite{Keyfitz1977} proposed $\,\xbar{H}$ as a lifetable function ``that measures the change in life expectancy at birth consequent on a proportional change in age-specific rates'' (p.~413). Since then, several authors have been interested in this measure and its use \citep{demetrius1978adaptive, Demetrius1979,mitra1978short,Goldman1986,Vaupel1986,Hakkert1987,hill1993entropy,Fernandez2015}. Even though the lifetable entropy and $e^\dagger$ are both measures of lifespan variation, their demographic interpretation differs. The former is defined as the elasticity of life expectancy due to changes in death rates \citep{keyfitz1968introduction} whereas the later one refers to the average years lost due to death \citep{Vaupel2011}. The life table entropy measures relative variability while $e^\dagger$ measures absolute lifespan variation. Therefore the lifetable entropy is appropriate to compare different shapes of age-at-death distributions across different species and over time \citep{baudisch2013pace,Wrycza2015}, while $e^\dagger$ has been used to obtain insights about lifespan variation in different countries and in sub-population groups (e.g. by occupational class or income \citep{vanRaalte2014,bronnum2017socially}). Both measures are meaningful and complementary but the calculation of their threshold ages should be performed accordingly to interpret correctly changes of age patterns of mortality.
+ 
+ 
+ In this article, we uncovered the mathematical regularities behind the changes over time in the lifetable entropy. In particular, this study contributes to the existing literature by showing that (1)~the lifetable entropy can be decomposed as a weighted average of rates of mortality improvements, and (2)~there exists a unique threshold age that separates positive and negative contributions of reductions in mortality over time.
 
 % % Line interpsace
 % \linespread{1}\normalsize
@@ -452,7 +456,7 @@ If mortality reductions occur at every age, the \textit{early life component} in
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+%\newpage
 \linespread{1}\normalsize
 
 
@@ -582,6 +586,95 @@ Finally, replacing~\eqref{Cumhaz.derv} and~\eqref{eq:Hplus.derv} in~\eqref{eq:pr
 %
 which holds true for all ages since by definition $e^\dagger(x)>0$ for all $x\geq0$. Hence, $g(x)$ is a strictly increasing function.
 \end{proof}
+
+\subsection*{The threshold age of the lifetable entropy based on Gompertz force of mortality}
+
+Assume the force of mortality follows a Gompertz distribution with hazard $\mu(x) = \alpha\,\mathrm{e}^{\beta x}$, where $x\geq0$ denotes the age and $\alpha,\beta>0$ are parameters. The corresponding cumulative hazard is 
+%%
+$$
+H(x)=\frac{\alpha}{\beta}\,\left(\mathrm{e}^{\beta x} - 1 \right).
+$$
+%%
+Following \cite{wrycza2014entropy}, the lifetable entropy can be expressed in terms of the Gompertz parameters as
+$$
+\xbar{H}=\frac{1}{\beta}\,\left(\frac{1}{e_o}-\alpha\right)\;,
+$$
+%%
+where $e_o$ is the life expectancy at birth. Plugging these two expressions into function $g(x)$ from Equation~(9) yields
+\begin{equation}
+g(x) = \frac{1}{\beta}\,\left(\alpha\,\mathrm{e}^{\beta x} - \frac{1}{e_o} \right)+\,\xbar{H}(x)-1\;.
+\label{eq.gx}
+\end{equation}
+
+From Proposition~1 in the Appendix, the lifetable entropy conditioned on surviving to age $x$ can be expressed as
+%%
+$$
+\xbar{H}(x)=\frac{e^\dagger(x)}{e(x)}=\frac{\int_x^\infty\,\ell(a)\,\big(H(a)-H(x)\big)\,da}{\int_x^\infty\ell(a)\,da}\;.
+$$
+%%
+Using the above expressions in terms of the Gompertz parameters, it holds that the lifetable entropy conditional on surviving to age $x$ is
+%
+\begin{equation}
+  \begin{split}
+	\xbar{H}(x)
+        & = \frac{\int_x^\infty \ell(a)\,\frac{\alpha}{\beta}\big(\mathrm{e}^{\beta a}-\mathrm{e}^{\beta x}\big)\,da}{\int_x^\infty\ell(a)\,da}=\frac{\int_x^\infty \ell(a)\,\alpha\,\mathrm{e}^{\beta a}\,da}{\beta\int_x^\infty\ell(a)\,da} - \frac{\alpha}{\beta}\,\mathrm{e}^{\beta x} 				\\
+        & = \frac{\int_x^\infty\ell(a)\,\mu(a)\,da}{\beta\,e(x)\,\ell(x)} - \frac{\alpha}{\beta}\,\mathrm{e}^{\beta x}=\frac{1}{\beta}\left(\frac{1}{e(x)}-\alpha\,\mathrm{e}^{\beta x}\right)\;.
+  \end{split}
+  \label{eq.Hx}
+\end{equation}
+%
+The last step in~\eqref{eq.Hx} uses the product $\ell(a)\,\mu(a)$ as the age-at-death distribution, which then implies that $\int_x^\infty \ell(a)\,\mu(a)\,da=\ell(x)$. Thus, $g(x)$ in~\eqref{eq.gx} reduces to
+
+\begin{equation}
+g(x) = \frac{1}{\beta}\,\left(\frac{1}{e(x)}-\frac{1}{e_o}\right)-1\;,
+\label{eq.gx2}
+\end{equation}
+%
+where $e(x)$ is the remaining life expectancy at age $x$. Equation~\eqref{eq.gx2} implies that the threshold age $a^H$ of the lifetable entropy $\,\xbar{H}$ under the Gompertz model occurs whenever
+\begin{equation}
+e(x) = \frac{e_o}{\beta\,e_o+1}\;.
+\label{eq.threshold}
+\end{equation}
+
+Following \citet{missov2013gompertz}, the remaining life expectancy at age $x$ in the Gompertz case can be approximated by
+%
+\begin{equation}
+  e(x)\approx\frac{1}{\beta}\,\mathrm{e}^{\alpha/\beta}\,\big(-\gamma-\ln(\alpha/\beta)-\beta x\big)\;,
+  \label{eq:exapprox}
+\end{equation}
+%
+where $\gamma\approx 0.57722$ is the Euler-Mascheroni constant. Hence, the threshold age occurs whenever
+%
+\begin{equation*}
+\begin{split}
+e(x)	& \approx\frac{1}{\beta}\,\mathrm{e}^{\alpha/\beta}\,\big(-\gamma-\ln(\alpha/\beta)-\beta x\big)=\frac{e_o}{\beta\,e_o+1}			\\
+& \Longleftrightarrow x=-\frac{\mathrm{e}^{-\alpha/\beta}\,e_o}{\beta\,e_o+1}-\frac{1}{\beta}\,\big(\gamma+\ln(\alpha/\beta)\big)\;.
+\end{split}
+\end{equation*}
+
+Note that from~\eqref{eq:exapprox}, $e_o\approx \mathrm{e}^{\alpha/\beta}\,\big(-\gamma-\ln(\alpha/\beta)\big)\,/\,\beta$. Using this approximation,
+%
+\begin{equation}
+  \begin{split}
+ 	a^H & = -\frac{\mathrm{e}^{-\alpha/\beta}\,e_o}{\mathrm{e}^{\alpha/\beta}\,\left(-\gamma-\ln\left(\alpha\,/\,\beta\right)\right)+1}+\frac{e_o}{\mathrm{e}^{\alpha/\beta}}	\\
+ 	& = \frac{e_o}{\mathrm{e}^{\alpha/\beta}}\,\left(\frac{1}{\mathrm{e}^{\alpha/\beta}\,( \gamma+\ln\left(\alpha\,/\,\beta\right))-1}+1\right)	 \\
+ 	& = e_o\,\left(\frac{\gamma+\ln(\alpha/\beta)}{\mathrm{e}^{\alpha/\beta}\,( \gamma+\ln\left(\alpha\,/\,\beta\right))-1}\right)			 \\
+ 	& = e_o \cdot \delta\;,
+  \end{split}
+  \label{eq.x}
+\end{equation}
+%
+which implies that the threshold age $a^H$ of the lifetable entropy $\,\xbar{H}$ for the Gompertz model is proportional to $e_o$ by a factor $\delta$ that only depends on $\alpha$, $\beta$ and $\gamma$. From equation~\eqref{eq.x}, the empirical correspondence between the threshold age and life expectancy at birth would come from $\delta$, which if it approximates one, it would  indicate that mortality in modern mortality schedules are roughly following a Gompertz model. Figure \ref{Fig:delta} shows the development of $\delta$ for French and Swedish females. The observation that this value converges towards one could be explanatory for the convergence of the threshold age and life expectancy at birth in modern mortality profiles. From this, it can be speculated that the difference between the threshold age and life expectancy in earlier years come from the fact that a big proportion of mortality was occurring in ages where the force of mortality does not follow a Gompertz such as in infancy.
+\linebreak
+
+
+\begin{figure}[h!]
+\caption{Factor value $\delta$ for threshold age under Gompertz distribution for French and Swedish women.}
+\centering
+\includegraphics[scale=.6]{Figures/Figure_delta}
+\label{Fig:delta}
+\end{figure}
+
 
 \end{document} 
 
